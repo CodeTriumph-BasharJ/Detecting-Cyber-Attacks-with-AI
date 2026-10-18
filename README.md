@@ -1,7 +1,7 @@
 This project involves the development of four specialized agents, each dedicated to analyzing a specific type of cyberattack:
-Brute-force attacks
-Data exfiltration attacks
-Lateral movement attacks
+Brute-force attacks,
+Data exfiltration attacks,
+Lateral movement attacks, and
 Privilege escalation attacks
 
 Attack incidents are stored in JSON format and embedded within each agent as simplified YAML text. This approach improves the agents' ability to process and understand incident data while maximizing the accuracy of incident separation, ensuring that distinct events occurring at different times within the same attack category are correctly identified and analyzed.
